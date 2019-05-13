@@ -1,4 +1,4 @@
-import Home from '@/views/Home.vue'
+import Home from '@/views/home/Home.vue'
 
 export default [
   {
@@ -9,11 +9,11 @@ export default [
   {
     path: '/login',
     name: 'login',
-    component: () => import('@/views/Login.vue')
+    component: () => import('@/views/user/Login.vue')
   },
   {
     path: '/exception/404',
     name: 'exception404',
-    component: () => import('@/views/404.vue')
+    component: () => import('@/views/exception/404.vue')
   }
 ]
