@@ -1,6 +1,10 @@
 <template>
   <div>
     <a-menu mode="inline">
+      <a-menu-item key="0">
+        <a-icon type="user" />
+        <span>工作台</span>
+      </a-menu-item>
       <a-sub-menu key="sub1">
         <span slot="title"><a-icon type="mail" /><span>Navigation One</span></span>
         <a-menu-item key="1">Option 1</a-menu-item>

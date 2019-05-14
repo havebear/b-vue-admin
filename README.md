@@ -1,4 +1,4 @@
-# vue-admin
+# b-vue-admin
 
 ## Project setup
 ```
